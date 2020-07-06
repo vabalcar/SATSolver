@@ -15,18 +15,36 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="stdafx.h">
+    <ClInclude Include="WordReader.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="targetver.h">
+    <ClInclude Include="CNFFormula.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CNFParser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Result.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SatSolver.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="stdafx.cpp">
+    <ClCompile Include="CNFFormula.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="SATSolver.cpp">
+    <ClCompile Include="CNFParser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SatSolver.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="WordReader.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
